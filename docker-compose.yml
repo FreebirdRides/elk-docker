@@ -12,7 +12,7 @@ elk:
     - ELK_PRIVATE_KEY
     - ELK_CA
   ports:
-    - 80:5601
+    - "80:5601"
     - 9200
     - 5044
   volumes:
